@@ -1,0 +1,51 @@
+/* Module code: CS5003 */
+/* Module: Masters Programming Projects */
+/* Creating "Guess The Cat" Game */
+
+body {
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 90%;
+}
+
+button {
+  color: #000000;
+  background-color: #e1c9c5;
+  border-radius: 8px;
+  padding: 5px;
+  min-width: 200px;
+}
+
+#quit-game {
+  margin-left: 15px;
+}
+
+#breeds {
+  background-color: #f4eddd;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#mySelect {
+  width: 200px;
+  margin: 10px 20px 0px 0px;
+  padding: 5px;
+}
+
+#catNameSelect {
+  padding: 5px;
+  width: 200px;
+  margin: 10px 20px 0px 0px;
+}
+
+.breeds img {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+#container {
+  margin: 20px;
+  max-width: 300px;
+}
